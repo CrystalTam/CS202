@@ -1,0 +1,24 @@
+/* selector & declaration */
+/* selector{propername:value;} */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* css variables - root & var() */
+:root{
+    --main-color:pink;
+    --text-color:blue
+    ;
+
+}
+
+p{
+    color:black;
+}
+body{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic; */
+
+
+/* shorthand for font */
+font: italic  bold 13px/150% Roboto;
+background-color: var(--main-color) !important; 
+
+}
